@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">EJS</span>
+                </a>
+            </h1>
+
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item sr-only active"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" id="a" href="javascript:void(0)">About</a></li>
+                        <li class="nav-item"><a class="scrollto" id="b" href="javascript:void(0)">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" id="c" href="javascript:void(0)">Get Started</a></li>
+                        <li class="nav-item"><a class="scrollto" id="d" href="javascript:void(0)">Docs</a></li>
+                        <li class="nav-item"><a class="scrollto" id="e" href="javascript:void(0)">Support</a></li>
+                        <li class="nav-item"><a class="scrollto" id="f" href="javascript:void(0)">License</a></li>
+                        <li class="nav-item"><a class="scrollto" href="https://github.com/mde/ejs">GitHub</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title"><span class="highlight">
+            <span style="font-size: 60%;">&lt;%=</span>
+            EJS
+            <span style="font-size: 60%;">%&gt;</span>
+            </span></h2>
+            <p class="intro">Effective JavaScript templating.</p>
+            <a class="btn btn-cta-secondary" id="g" href="javascript:void(0)">Get Started</a>
+            <ul class="meta list-inline">
+                <li>&nbsp;</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2>
+                What is EJS?
+                </h2>
+            </div>
+            <div class="intro text-center">
+                <p>"E" is for "effective." EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript.</p>
+            </div>
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="glyphicon glyphicon-heart"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Use plain JavaScript</h3>
+                        <p>We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!</p>
+                    </div>
+                </div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="glyphicon glyphicon-time"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Fast development time</h3>
+                        <p>Don't waste time and attention figuring out arcane new syntax because 'elegance' — or how to preprocess your data so it will actually render right.</p>
+                    </div>
+                </div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Simple syntax</h3>
+                        <p>JavaScript code in simple, straightforward scriptlet tags. Just write JavaScript that emits the HTML you want, and get your shit done.</p>
+                    </div>
+                </div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="glyphicon glyphicon-plane"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Speedy execution</h3>
+                        <p>We all know how fast V8 and the other JavaScript runtimes have gotten. EJS caches the intermediate JS functions for fast execution.</p>
+                    </div>
+                </div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="glyphicon glyphicon-thumbs-up"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Easy debugging</h3>
+                        <p>It's easy to debug EJS errors: your errors are plain JavaScript exceptions, with template line-numbers included.</p>
+                    </div>
+                </div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="	glyphicon glyphicon-transfer"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Active development</h3>
+                        <p>EJS has a large community of active users, and the library is under active development. We're happy to answer your questions or give you help.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+
+    <div id="features">
+        <div class="container">
+            <h2 class="text-center">Features</h2>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Fast compilation and rendering</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Simple template tags: &lt;% %&gt;</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Custom delimiters (e.g., use &lt;? ?&gt; instead of &lt;% %&gt;)</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Includes</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Both server JS and browser support</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Static caching of intermediate JavaScript</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Static caching of templates</p>
+            </div>
+            <div class="text-center">
+                <div class="icon-holder">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <p class="content">Complies with the Express view system</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="GetStarted">
+        <div class="container">
+            <div class="install">
+                <h3 class="text-center">Get Started</h3>
+                <h4 class="text-center">Install</h4>
+                <p>It's easy to install EJS with NPM.</p>
+                <div class="code-block bg">
+                    <pre>$ npm install ejs</pre>
+                </div>
+                <h4 class="text-center">Use</h4>
+                <p>Pass EJS a template string and some data. BOOM, you've got some HTML.</p>
+<pre>
+var ejs = require(<i>'ejs'</i>),
+    people = [<i>'geddy'</i>, <i>'neil'</i>, <i>'alex'</i>],
+        html = ejs.render('<i><%= people.join(", "); %>'</i>, {people: people});
+</pre>
+
+                <h4 class="text-center">Browser suport</h4>
+                <p>Download a browser build from the latest release, and use it in a script tag.</p>
+<pre>
+<strong>&lt;script</strong> <i>src="ejs.js"</i>><strong>&lt;/script&gt;"</strong>;
+<strong>&lt;script&gt;</strong>
+    var people = [<i>'geddy'</i>, <i>'neil'</i>, <i>'alex'</i>],
+            html = ejs.render(<i>'<%= people.join(", "); %>'</i>, {people: people})
+<strong>&lt;/script&gt;</strong>
+</pre>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="docs">
+        <div class="container">
+            <div class="install">
+                <h3 class="text-center">Docs</h3>
+                <h4 class="text-center">Example</h4>
+                <!--<div class=".bg">-->
+<pre>
+<% if (user) { %>
+    &lt;<strong>h2</strong>><%= user.name %>&lt;/<strong>h2</strong>>
+<% } %>
+</pre>
+                <!--</div>-->
+                <h4 class="text-center">Usage</h4>
+<pre>
+<span class="var">var</span> template = ejs.compile(str, options);
+template(data);
+<span class="zhushi">// => Rendered HTML string</span>
+
+ejs.render(str, data, options);
+<span class="zhushi">// => Rendered HTML string</span>
+</pre>
+                <h4 class="text-center">Opations</h4>
+                <ul>
+                    <li>
+                        <code>cache</code> Compiled functions are cached, requires <code>filename</code>
+                    </li>
+                    <li>
+                        <code>filename</code> Used by <code>cache</code> to key caches, and for includes</li>
+                    <li>
+                        <code>context</code> Function execution context</li>
+                    <li>
+                        <code>compileDebug</code> When <code>false</code> no debug instrumentation is compiled</li>
+                    <li>
+                        <code>client</code> Returns standalone compiled function</li>
+                    <li>
+                        <code>delimiter</code> Character to use with angle brackets for open/close</li>
+                    <li>
+                        <code>debug</code> Output generated function body</li>
+                    <li>
+                        <code>_with</code> Whether or not to use <code>with() {}</code> constructs. If <code>false</code> then the locals will be stored in the <code>locals</code> object.</li>
+                </ul>
+                <h4 class="text-center">Tags</h4>
+                <ul>
+                    <li>
+                        <code>&lt;%</code>              'Scriptlet' tag, for control-flow, no output</li>
+                    <li>
+                        <code>&lt;%=</code>             Outputs the value into the template (HTML escaped)</li>
+                    <li>
+                        <code>&lt;%-</code>             Outputs the unescaped value into the template</li>
+                    <li>
+                        <code>&lt;%#</code>             Comment tag, no execution, no output</li>
+                    <li>
+                        <code>&lt;%%</code>             Outputs a literal '&lt;%'</li>
+                    <li>
+                        <code>%&gt;</code>              Plain ending tag</li>
+                    <li>
+                        <code>-%&gt;</code>             Trim-mode ('newline slurp') tag, trims following newline</li>
+                </ul>
+                <h4 class="text-center">Includes</h4>
+                <p>Includes are relative to the template with the <code>include</code> call. (This
+                    requires the 'filename' option.) For example if you have "./views/users.ejs" and
+                    "./views/user/show.ejs" you would use <code>&lt;%- include('user/show'); %&gt;</code>.</p>
+                <p>You'll likely want to use the raw output tag (<code>&lt;%-</code>) with your include to avoid
+                    double-escaping the HTML output.</p>
+<pre>
+&lt;<strong>h2</strong>>
+  <% users.forEach(function(user){ %>
+    <%- include('user/show', {user: user}); %>
+  <% }); %>
+&lt;/<strong>ul</strong>>
+</pre>
+                <h4 class="Custom delimiters"></h4>
+                <p>Custom delimiters can be applied on a per-template basis, or globally:</p>
+<pre>
+<span class="var">var</span> ejs = require(<i>'ejs'</i>),
+    users = [<i>'geddy'</i>, <i>'neil'</i>, <i>'alex'</i>];
+
+<span class="zhushi">// Just one template</span>
+ejs.render(<i> '&lt;?= users.join(" | "); ?>' </i>, {users: users},
+    {delimiter: '?'});
+<span class="zhushi">// => 'geddy | neil | alex'</span>
+
+<span class="zhushi">// Or globally</span>
+ejs.delimiter = <i>'$'</i>;
+ejs.render(<i>'<$= users.join(" | "); $>'</i>, {users: users});
+<span class="zhushi">// => 'geddy | neil | alex'</span>
+</pre>
+            </div>
+        </div>
+    </div>
+
+    <div id="support">
+       <div class="container">
+           <div class="install">
+               <h2 class="text-center">Support</h2>
+               <div class="block">
+                   <h3 class="text-center"><a href="http://start.thinkful.com/node/?utm_source=github&amp;utm_medium=badge&amp;utm_campaign=ejs">Live help sessions on Thinkful</a></h3>
+                   <p>
+                       Bring your questions and pair with other ejs users in a <a href="http://start.thinkful.com/node/?utm_source=github&amp;utm_medium=badge&amp;utm_campaign=ejs">live Thinkful hangout</a>. Hear about the challenges other developers are running into, or screenshare your own code with the group for feedback.
+                   </p>
+               </div>
+               <div class="block">
+                   <h3 class="text-center"><a href="http://stackoverflow.com/questions/tagged/ejs">Stack Overflow</a></h3>
+                   <p>
+                       <a href="http://stackoverflow.com/questions/ask">Ask questions</a> about specific problems you have faced, including details about what exactly you are trying to do. Make sure you tag your question with <code>ejs</code>. You can also read through <a href="http://stackoverflow.com/questions/tagged/ejs">existing ejs questions</a>.
+                   </p>
+               </div>
+               <div class="block">
+                   <h3 class="text-center"><a href="https://github.com/mde/ejs/issues">GitHub issues</a></h3>
+                   <p>
+                       The <a href="https://github.com/mde/ejs/issues">issue tracker</a> is the preferred channel for bug reports, features requests and submitting pull requests.
+                   </p>
+               </div>
+           </div>
+       </div>
+   </div>
+
+    <div id="license">
+       <div class="container">
+           <div class="install">
+               <h2 class="text-center">License</h2>
+               <p>
+                   EJS is licensed under the Apache License, version 2.0. Information can found here: <a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a>.
+               </p>
+           </div>
+       </div>
+   </div>
+
+    <footer class="footer">
+       <div class="container text-center">
+           <small class="copyright">EJS © 2112 <a href="http://twitter.com/mde">Matthew Eernisse</a> ::: Template designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+       </div>
+   </footer>
+
+
+
+</body>
+    <script src="index.js"></script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</html> 
