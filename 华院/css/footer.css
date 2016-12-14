@@ -1,0 +1,53 @@
+.footer {
+  width: 970px;
+  overflow: hidden;
+  margin: 50px auto 0; }
+
+.ft-left {
+  float: left;
+  margin-right: 60px; }
+
+.ft-right {
+  float: left; }
+  .ft-right .link a {
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #666; }
+  .ft-right .intro {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666; }
+    .ft-right .intro img {
+      margin-left: 10px; }
+  .ft-right .bianma {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666; }
+  .ft-right .share .bds_tsina {
+    background-position: -345px -406px; }
+  .ft-right .share a {
+    display: inline-block;
+    background: url("../img/icon-xxxl.png") no-repeat scroll 0 0;
+    width: 42px;
+    height: 42px; }
+  .ft-right .share .bds_tqq {
+    background-position: -303px -406px; }
+  .ft-right .share .bds_linkedin {
+    background-position: -386px -406px; }
+  .ft-right .share a.bds_tsina:hover {
+    background-position: -345px -448px; }
+  .ft-right .share a:hover {
+    opacity: 0.9; }
+  .ft-right .share a.bds_tqq:hover {
+    background-position: -303px -448px; }
+  .ft-right .share a.bds_linkedin:hover {
+    background-position: -386px -448px; }
+
+.ft-last {
+  float: right; }
+  .ft-last .ft_last1 {
+    float: left;
+    margin-right: 80px; }
+  .ft-last .ft_last2 {
+    float: left; }

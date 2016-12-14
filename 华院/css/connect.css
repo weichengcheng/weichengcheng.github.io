@@ -1,0 +1,74 @@
+.wrap {
+  width: 856px;
+  height: 442px;
+  margin: 0 auto;
+  background: url("../img/map.png");
+  background-size: cover;
+  margin-top: 30px;
+  position: relative; }
+  .wrap h6 {
+    margin: 0;
+    padding: 0; }
+  .wrap img {
+    width: 856px; }
+  .wrap .map-city {
+    font-size: 14px;
+    display: inline-block;
+    width: 62px;
+    height: 20px;
+    position: absolute;
+    font-weight: bold;
+    color: #56bb97;
+    top: 12px;
+    left: -26px;
+    text-align: center; }
+  .wrap .map-point-1 {
+    position: absolute;
+    left: 299px;
+    top: 194px; }
+  .wrap .map-point .map-cricle {
+    width: 7px;
+    height: 7px; }
+  .wrap .map-point:hover .map-info {
+    display: block; }
+  .wrap .map-info {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 15px;
+    width: 300px;
+    border-left: 1px solid #56bc87; }
+  .wrap .map-info h6 {
+    font-size: 16px;
+    color: #56bc87;
+    line-height: 36px; }
+  .wrap .map-info li {
+    line-height: 20px;
+    color: #999; }
+  .wrap .map-point-2 {
+    position: absolute;
+    left: 332px;
+    top: 165px; }
+  .wrap .map-point-3 {
+    position: absolute;
+    left: 261px;
+    top: 214px; }
+  .wrap .map-point-4 {
+    position: absolute;
+    left: 339px;
+    top: 207px; }
+  .wrap .map-point-5 {
+    position: absolute;
+    left: 236px;
+    top: 157px; }
+  .wrap .map-point-6 {
+    position: absolute;
+    left: 319px;
+    top: 243px; }
+  .wrap .map-point-7 {
+    position: absolute;
+    left: 650px;
+    top: 203px; }
+  .wrap .map-point:hover .map-cricle {
+    background-color: #56bc87; }

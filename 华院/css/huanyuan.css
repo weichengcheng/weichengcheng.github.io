@@ -1,0 +1,40 @@
+.wrap {
+  width: 950px;
+  margin: 0 auto; }
+
+.asideLeft {
+  float: left; }
+
+.asideLeft li {
+  width: 160px;
+  height: 55px;
+  line-height: 54px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  cursor: pointer; }
+
+.asideLeft .active {
+  color: #40cee2; }
+
+.asideRight {
+  width: 750px;
+  float: left;
+  margin-left: 40px;
+  line-height: 2rem;
+  position: relative; }
+  .asideRight a {
+    color: #04a2df; }
+
+.asideRight li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+
+.asideRight .actives {
+  display: block; }
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }

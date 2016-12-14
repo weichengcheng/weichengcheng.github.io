@@ -1,0 +1,24 @@
+body {
+  margin: 0; }
+  body a {
+    color: #cccccc;
+    text-decoration: none; }
+  body ul, body ol {
+    list-style: none; }
+  body .header .head_top {
+    width: 980px;
+    height: 34px;
+    padding: 8px 0;
+    margin: 0 auto; }
+    body .header .head_top a {
+      display: inline-block;
+      background: url("../img/logo.gif") no-repeat;
+      width: 115px;
+      height: 34px;
+      float: left; }
+    body .header .head_top span {
+      font-size: 14px;
+      line-height: 34px;
+      margin-left: 30px;
+      color: #666;
+      float: left; }
